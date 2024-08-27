@@ -6,8 +6,8 @@
 ##############################################################
 
 
-LDD_VERSION = '58a55a62fce5840dfb5dd3d80caa4980ac875b1e'
-LDD_SITE = 'git@github.com:cu-ecen-aeld/assignment-7-vilmursss.git'
+LDD_VERSION = '2f730aef5856e6719fbb0cebf76840e87850d80e'
+LDD_SITE = 'git@github.com:cu-ecen-aeld/assignment-7-Dexatr.git'
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
 
