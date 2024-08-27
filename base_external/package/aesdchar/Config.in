@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESDCHAR
+	bool "aesdchar"
+	help
+	  Includes the aesdchar module in the kernel image.
+	  Used to understand buildroot external trees and package builds.

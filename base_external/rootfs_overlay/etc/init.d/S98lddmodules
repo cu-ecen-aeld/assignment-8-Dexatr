@@ -9,6 +9,7 @@ start)
     /usr/bin/module_load faulty
     echo "Loading hello module"
     modprobe hello
+    aesdchar_load
     ;;
 stop)
     echo "Unloading scull module"
@@ -17,6 +18,7 @@ stop)
     /usr/bin/module_unload faulty
     echo "Unloading hello module"
     rmmod hello
+    aesdchar_unload
     ;;
 *)
     echo "Usage: $0 {start|stop}"
